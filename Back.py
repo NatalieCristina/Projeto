@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 
 def pega_conexao():
-    nome_site = "Next_Game"
+    nome_site = "Next Game.db"
     con = sqlite3.connect(nome_site)
     return con
 
