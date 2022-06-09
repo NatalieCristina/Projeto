@@ -1,0 +1,29 @@
+# Tcc
+Trabalho de conclusão de curso.
+body {
+    font-family: Arial;
+}
+
+.caixa-cinza {
+   background-color: #CCCCCC;
+   text-align: center;
+   padding: 10px;
+}
+
+#foto {
+    width: 100%;
+}
+
+#lado-a-lado {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#p1 {
+    font-weight: bold; /* Texto em negrito */
+    color: #690000; /* Muda a cor da fonte */
+    text-decoration: underline; /* Deixa a linha sublinhada */
+    font-size: 22px; /* Muda o tamanho da fonte */
+}
