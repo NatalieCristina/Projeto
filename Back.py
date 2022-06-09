@@ -26,7 +26,7 @@ def todos():
         return jsonify("Jogo não encontrado")
     jogos = cur.fetchall()
     con.close()
-    return jsonify(dados)
+    return jsonify(jogos)
 
 @app.route("/lista/<int:id>") # http://127.0.0.1:5000/lista/1
 def lista_um(id):
