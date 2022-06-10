@@ -1,5 +1,9 @@
 body{
-    background-image: ;
+    background-image: url(../Projeto-1/tabuleiro.webp);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+body{
     font-family: Arial;
 }
 
