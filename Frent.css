@@ -30,3 +30,7 @@ body{
     text-decoration: underline; /* Deixa a linha sublinhada */
     font-size: 22px; /* Muda o tamanho da fonte */
 }
+
+#foto-tabuleiro-para-crianças {
+    width: 50%;
+}

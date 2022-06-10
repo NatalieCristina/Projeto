@@ -1,7 +1,8 @@
 body{
-    background-image: url(../Projeto-1/tabuleiro.webp);
+    background-image: url(../Tabuleiro\ de\ Xadrez.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    background-position: center center;
 }
 body{
     font-family: Arial;
@@ -26,7 +27,7 @@ body{
 
 #p1 {
     font-weight: bold; /* Texto em negrito */
-    color: #690000; /* Muda a cor da fonte */
+    color:darkseagreen; /* Muda a cor da fonte */
     text-decoration: underline; /* Deixa a linha sublinhada */
     font-size: 22px; /* Muda o tamanho da fonte */
 }
