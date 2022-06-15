@@ -1,3 +1,17 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.header-1 {
+    background-color:royalblue;
+    height: 60px;
+}
+#amigos2 {
+    width: 10%;
+}
+
+
 body{
     background-image: url(../Tabuleiro\ de\ Xadrez.jpg);
     background-repeat: no-repeat;
@@ -15,7 +29,7 @@ body{
 }
 
 #foto {
-    width: 100%;
+    width: 50%;
 }
 
 #lado-a-lado {
@@ -30,4 +44,8 @@ body{
     color:darkseagreen; /* Muda a cor da fonte */
     text-decoration: underline; /* Deixa a linha sublinhada */
     font-size: 22px; /* Muda o tamanho da fonte */
+}
+
+#foto-tabuleiro-para-crianças {
+    width: 30%;
 }
