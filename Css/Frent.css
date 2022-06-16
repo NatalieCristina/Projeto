@@ -4,18 +4,21 @@ body {
 }
 
 .header-1 {
-    background-color:royalblue;
+    background-color:antiquewhite;
     height: 60px;
+    border-right: 5px;
+    border-style:outset;
+    border-color:saddlebrown;
 }
 #amigos2 {
-    width: 10%;
+    width: 6%;
 }
 
 
 body{
-    background-image: url(../Tabuleiro\ de\ Xadrez.jpg);
+    background-image: url(../Img/imagem\ de\ fundo.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
     background-position: center center;
 }
 body{
@@ -23,19 +26,30 @@ body{
 }
 
 .caixa-cinza {
-   background-color: #CCCCCC;
+   background-color:azure;
    text-align: center;
    padding: 10px;
 }
 
 #foto {
     width: 50%;
+    border-right: 5px;
+    border-style: ridge;
+    border-color: black;
+}
+
+.sub-titulo {
+    text-decoration: underline;
 }
 
 #lado-a-lado {
-    display: flex;
-    align-items: center;
+    list-style-position:inside;
+    display:inline-flex;
+    align-items:center;
     justify-content: space-evenly;
+    border-right: 5px;
+    border-style:outset;
+    border-color:saddlebrown;
 }
 
 
@@ -48,4 +62,19 @@ body{
 
 #foto-tabuleiro-para-crianças {
     width: 30%;
+    border-right: 5px;
+    border-style:outset;
+    border-color:saddlebrown;
 }
+
+main {
+    width: 980px;
+    float:left;
+}
+
+.Procure-por-seu-jogo-aqui {
+    width: 20%;
+    font-weight: bold;
+    background-color: brown;
+}
+
