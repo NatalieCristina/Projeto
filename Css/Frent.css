@@ -4,6 +4,7 @@ body {
 }
 
 .header-1 {
+    width: 100%;
     background-color:antiquewhite;
     height: 60px;
     border-right: 5px;
@@ -14,6 +15,9 @@ body {
     width: 6%;
 }
 
+#redes {
+    width: 20%;
+}
 
 body{
     background-image: url(../Img/imagem\ de\ fundo.jpg);
@@ -28,7 +32,7 @@ body{
 .caixa-cinza {
    background-color:azure;
    text-align: center;
-   padding: 10px;
+   padding: 30px;
 }
 
 #foto {
@@ -68,13 +72,17 @@ body{
 }
 
 main {
+    margin: 0 auto;
     width: 980px;
     float:left;
+    position: relative;
 }
 
 .Procure-por-seu-jogo-aqui {
-    width: 20%;
+    width: 40%;
+    height: 40px;
     font-weight: bold;
     background-color: brown;
 }
+
 
