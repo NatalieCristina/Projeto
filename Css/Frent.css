@@ -1,10 +1,14 @@
 body {
     width: 100%;
     height: 100%;
+    margin: 0 auto;
+}
+ul {
+    padding: 0px! important;
 }
 
 .header-1 {
-    width: 100%;
+    width: 30%;
     background-color:antiquewhite;
     height: 60px;
     border-right: 5px;
@@ -12,11 +16,12 @@ body {
     border-color:saddlebrown;
 }
 #amigos2 {
-    width: 6%;
+    float: left;
+    width: 20%;
 }
 
 #redes {
-    width: 20%;
+    width: 65%;
 }
 
 body{
@@ -82,7 +87,44 @@ main {
     width: 40%;
     height: 40px;
     font-weight: bold;
-    background-color: brown;
+    background-color:burlywood;
 }
 
+#titulo-principal {
+    margin-right:auto;
+}
+
+.header-2 {
+    background-color:white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid cornsilk;
+}
+
+.menu ul li {
+    display:inline-block;
+    color:darkgoldenrod;
+    margin-left: 70px;
+}
+
+.menu ul li a {
+   color:darkcyan;
+   text-decoration: none;
+   font-size: 20px;
+   text-transform: uppercase;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.busca {
+    text-align: center;
+}
+.busca input{
+    margin-top: 8px;
+}
 
