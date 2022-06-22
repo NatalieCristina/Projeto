@@ -53,6 +53,7 @@ body{
 }
 
 #lado-a-lado {
+    font-size: 18px;
     list-style-position:inside;
     display:inline-flex;
     align-items:center;
@@ -170,7 +171,7 @@ main {
     border-color:saddlebrown;
   }
 #Foto-Dixit {
-    width: 31%;
+    width: 33%;
     border-right: 5px;
     border-style:outset;
     border-color:black;
@@ -190,7 +191,7 @@ main {
     border-color:saddlebrown;
   }
 #Foto-zombicide {
-    width: 31%;
+    width: 33%;
     border-right: 5px;
     border-style:outset;
     border-color:black;
