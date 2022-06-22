@@ -24,7 +24,7 @@ def todos():
     con.close()
     return jsonify(todos)
 
-@app.route("/lista/<int:id>") # http://127.0.0.1:5000/lista/1
+@app.route("/lista/<int:id>") # http://127.0.0.1:5000
 def lista_um(id):
     con = pega_conexao()
     cur = con.cursor()

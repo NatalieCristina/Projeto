@@ -2,7 +2,7 @@ import sqlite3 # importa o módulo sqlite3
 import os.path # importa o módulo os.path, para usar a exists()
 import os      # importa o módulo os, para usar a unlink()
 
-nome_banco = "vrum.db"
+nome_banco = "boardgame.db"
 
 if os.path.exists(nome_banco): # Exclui o arquivo caso ele exista
     os.unlink(nome_banco)
