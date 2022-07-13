@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 
 def pega_conexao():
-    nome_banco = "boardgame"
+    nome_banco = "boardgame.db"
     con = sqlite3.connect(nome_banco) # Conecta no banco
     return con
 
@@ -22,9 +22,10 @@ def todos():
     cur.execute("SELECT * FROM boardgame")
     dados = cur.fetchall()
     con.close()
-    return jsonify(todos)
+    return jsonify(dados)
 
-@app.route("/lista/<int:id>") # http://127.0.0.1:5000
+@app.route("/lista/<int:id>") # http://127.0.0.1:5000/todos
+
 def lista_um(id):
     con = pega_conexao()
     cur = con.cursor()

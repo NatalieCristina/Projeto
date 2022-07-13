@@ -10,13 +10,13 @@ if os.path.exists(nome_banco): # Exclui o arquivo caso ele exista
 conexao = sqlite3.connect(nome_banco) # Conecta no banco
 cursor = conexao.cursor() # Obtém o cursor para o banco
 
-consulta = """CREATE TABLE Boardgame (
+consulta = """CREATE TABLE boardgame (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    Informação sobre jogo TEXT,
-    Como jogar TEXT,
-    Idade indicada INTEGER,
-    Preço REAL,
+    nome TEXT,
+    tipo TEXT,
+    idade INTEGER,
+    preco REAL
     )
     """
 cursor.execute(consulta) # Executa a consulta SQL
-conexao.close() # Fecha a conexão com o banco 
+conexao.close() # Fecha a conexão com o banco
